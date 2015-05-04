@@ -4,6 +4,7 @@
     It is now <%= @time %>
   </p>
   <p>
-    Say <a href="/say/goodbye">Goodbye</a>!
+    Time to say
+    <%= link "Goodbye", to: say_path(@conn, :goodbye) %>!
   </p>
 </div>
