@@ -1,6 +1,6 @@
 <div class="jumbotron">
   <h2>Hello from Phoenix!</h2>
   <p>
-    It is now <%= :io_lib.format("~p", [:erlang.localtime]) %>
+    It is now <%= @time %>
   </p>
 </div>
