@@ -3,7 +3,7 @@ defmodule Depot.ProductTest do
 
   alias Depot.Product
 
-  @valid_attrs %{description: "some content", image_url: "some content", price: "120.5", title: "some content"}
+  @valid_attrs %{description: "some content", image_url: "some_image.jpg", price: "120.5", title: "some content"}
   @invalid_attrs %{}
 
   test "changeset with valid attributes" do

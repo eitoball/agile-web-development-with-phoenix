@@ -2,7 +2,7 @@ defmodule Depot.ProductControllerTest do
   use Depot.ConnCase
 
   alias Depot.Product
-  @valid_params product: %{description: "some content", image_url: "some content", price: "120.5", title: "some content"}
+  @valid_params product: %{description: "some content", image_url: "some_image.jpg", price: "120.5", title: "some content"}
   @invalid_params product: %{}
 
   setup do
